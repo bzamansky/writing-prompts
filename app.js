@@ -8,7 +8,7 @@ app.set('view engine', 'jade');
 
 app.get('/', function(req,res){
 	//res.send(api.getPrompts());
-	res.render('index',{title:'Hello World'});
+	res.render('index',{title:'Hello Stuff'});
 });
 
 var server = app.listen(3000, function () {
